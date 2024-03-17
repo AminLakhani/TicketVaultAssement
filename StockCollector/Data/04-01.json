@@ -1,0 +1,352 @@
+[
+  {
+    "ticker": "NVDA",
+    "no_of_comments": 50,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.019,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "AI",
+    "no_of_comments": 30,
+    "sentiment": "Bearish",
+    "sentiment_score": -0.019,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "TSLA",
+    "no_of_comments": 12,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.132,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "FRC",
+    "no_of_comments": 7,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.179,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "QQQ",
+    "no_of_comments": 5,
+    "sentiment": "Bearish",
+    "sentiment_score": -0.213,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "IRS",
+    "no_of_comments": 3,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.113,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "TA",
+    "no_of_comments": 3,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.558,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "BABA",
+    "no_of_comments": 3,
+    "sentiment": "Bearish",
+    "sentiment_score": -0.255,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "CRM",
+    "no_of_comments": 3,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.083,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "IBKR",
+    "no_of_comments": 3,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.507,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "SCHW",
+    "no_of_comments": 3,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.15,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "CS",
+    "no_of_comments": 3,
+    "sentiment": "Bearish",
+    "sentiment_score": -0.134,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "CD",
+    "no_of_comments": 2,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.257,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "IQ",
+    "no_of_comments": 2,
+    "sentiment": "Bearish",
+    "sentiment_score": -0.232,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "MU",
+    "no_of_comments": 2,
+    "sentiment": "Bearish",
+    "sentiment_score": -0.028,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "GL",
+    "no_of_comments": 2,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.605,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "BB",
+    "no_of_comments": 2,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.477,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "GF",
+    "no_of_comments": 2,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.093,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "AAPL",
+    "no_of_comments": 2,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.711,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "WISH",
+    "no_of_comments": 2,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.417,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "UPS",
+    "no_of_comments": 2,
+    "sentiment": "Bearish",
+    "sentiment_score": -0.037,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "TLT",
+    "no_of_comments": 2,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.181,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "ETH",
+    "no_of_comments": 2,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.279,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "DKNG",
+    "no_of_comments": 2,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.576,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "JP",
+    "no_of_comments": 2,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.526,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "HR",
+    "no_of_comments": 1,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.582,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "JPM",
+    "no_of_comments": 1,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.031,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "TV",
+    "no_of_comments": 1,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.519,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "UBS",
+    "no_of_comments": 1,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.856,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "KC",
+    "no_of_comments": 1,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.778,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "RSI",
+    "no_of_comments": 1,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.982,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "RTX",
+    "no_of_comments": 1,
+    "sentiment": "Bearish",
+    "sentiment_score": -0.888,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "PPL",
+    "no_of_comments": 1,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.29,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "GOOG",
+    "no_of_comments": 1,
+    "sentiment": "Bearish",
+    "sentiment_score": 0.0,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "GBT",
+    "no_of_comments": 1,
+    "sentiment": "Bearish",
+    "sentiment_score": -0.296,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "SF",
+    "no_of_comments": 1,
+    "sentiment": "Bearish",
+    "sentiment_score": 0.0,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "NOW",
+    "no_of_comments": 1,
+    "sentiment": null,
+    "sentiment_score": null,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "VPN",
+    "no_of_comments": 1,
+    "sentiment": "Bearish",
+    "sentiment_score": -0.103,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "IGMS",
+    "no_of_comments": 1,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.796,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "ZION",
+    "no_of_comments": 1,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.226,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "MAN",
+    "no_of_comments": 1,
+    "sentiment": "Bearish",
+    "sentiment_score": 0.0,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "CMO",
+    "no_of_comments": 1,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.981,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "VC",
+    "no_of_comments": 1,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.026,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "IP",
+    "no_of_comments": 1,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.226,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "SIVB",
+    "no_of_comments": 1,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.128,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "AMZN",
+    "no_of_comments": 1,
+    "sentiment": "Bearish",
+    "sentiment_score": -0.273,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "COST",
+    "no_of_comments": 1,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.557,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "VERY",
+    "no_of_comments": 1,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.203,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "API",
+    "no_of_comments": 1,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.273,
+    "Date": "2023-04-01T00:00:00"
+  },
+  {
+    "ticker": "RIVN",
+    "no_of_comments": 1,
+    "sentiment": "Bullish",
+    "sentiment_score": 0.67,
+    "Date": "2023-04-01T00:00:00"
+  }
+]
