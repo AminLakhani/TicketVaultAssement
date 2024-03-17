@@ -29,19 +29,6 @@
           "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "04-04.json",
-              "DocumentMoniker": "C:\\wwwroot\\TicketVaultAssement\\StockCollector\\Data\\04-04.json",
-              "RelativeDocumentMoniker": "Data\\04-04.json",
-              "ToolTip": "C:\\wwwroot\\TicketVaultAssement\\StockCollector\\Data\\04-04.json",
-              "RelativeToolTip": "Data\\04-04.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-17T19:21:31.672Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
@@ -59,6 +46,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "04-04.json",
+              "DocumentMoniker": "C:\\wwwroot\\TicketVaultAssement\\StockCollector\\Data\\04-04.json",
+              "RelativeDocumentMoniker": "Data\\04-04.json",
+              "ToolTip": "C:\\wwwroot\\TicketVaultAssement\\StockCollector\\Data\\04-04.json",
+              "RelativeToolTip": "Data\\04-04.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-17T19:21:31.672Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "04-05.json",
               "DocumentMoniker": "C:\\wwwroot\\TicketVaultAssement\\StockCollector\\Data\\04-05.json",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "Data\\04-05.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-17T19:21:33.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T19:21:33.822Z"
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "RelativeToolTip": "Models\\Ticker.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T18:46:02.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T18:46:02.457Z"
             },
             {
               "$type": "Document",
@@ -91,7 +88,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\wwwroot\\TicketVaultAssement\\StockCollector\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwDMAAAAuAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAqwEwAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T17:51:06.228Z",
               "EditorCaption": ""

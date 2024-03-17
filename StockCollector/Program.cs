@@ -22,8 +22,9 @@ namespace StockCollector
             DateTime endingDate = new DateTime(2023, 4, 5);
 
             DateTime date = startingDate;
+            var httpClient = new HttpClient();
 
-            try 
+            try
             {
                 while (date <= endingDate)
                 {
@@ -33,7 +34,8 @@ namespace StockCollector
                         string url = apiURL + date.ToString("yyyy-MM-dd");
 
                         // Perform the API request
-                        var top50TickersForDay = await GetData(url);
+
+                        var top50TickersForDay = await GetData(url, httpClient);
                         if (top50TickersForDay != null)
                         {
                             top50TickersForDay.Select(s => { s.Date = date; return s; }).ToList();
@@ -46,14 +48,16 @@ namespace StockCollector
                     }
                     date = date.AddDays(1);
                 }
+                httpClient.Dispose();
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+                httpClient.Dispose();
             }
         }
 
-        static void SaveToFile(List<Ticker> data, DateTime date)
+        private static void SaveToFile(List<Ticker> data, DateTime date)
         {
             string month = date.ToString("MM");
             string day = date.ToString("dd");
@@ -62,7 +66,7 @@ namespace StockCollector
             System.IO.File.WriteAllText(filePath + $"{month}-{day}.json", json);
         }
 
-        static bool HasDateBeenProcessed(DateTime date)
+        private static bool HasDateBeenProcessed(DateTime date)
         {
             string month = date.ToString("MM");
             string day = date.ToString("dd");
@@ -70,21 +74,18 @@ namespace StockCollector
             return System.IO.File.Exists(filePath + $"{month}-{day}.json");
         }
 
-        static async Task<List<Ticker>> GetData(string apiUrl)
+        private static async Task<List<Ticker>> GetData(string apiUrl, HttpClient httpClient)
         {
-            using (var httpClient = new HttpClient())
+            var response = await httpClient.GetStringAsync(apiUrl);
+
+            if (response != null)
             {
-                var response = await httpClient.GetStringAsync(apiUrl);
-
-                if (response != null)
-                {
-                    string json = response;
-                    var data = JsonConvert.DeserializeObject<List<Ticker>>(json);
-                    return data;
-                }
-
-                return null;
+                string json = response;
+                var data = JsonConvert.DeserializeObject<List<Ticker>>(json);
+                return data;
             }
+
+            return null;
         }
     }
 }
