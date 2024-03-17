@@ -33,6 +33,6 @@ Changes Made:
 
 ## TO DO:
 - Parameterize/config api url, dates, filepath, etc.. 
-- Seperate concerns - API call and read/write to file/"db" should be handled by seperate classes.
+- Seperate concerns - API call and read/write to file/"db" should be handled by seperate classes, this will also make unit tests possible.
 - Add logging + better more specific error handling.
 
