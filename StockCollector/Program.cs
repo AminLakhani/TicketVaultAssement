@@ -26,8 +26,6 @@ namespace StockCollector
                         Console.WriteLine($"Processing Data for {date.ToString("MM-dd")}.");
                         string url = apiURL + date.ToString("yyyy-MM-dd");
 
-                        // Perform the API request
-
                         var top50TickersForDay = await GetData(url, httpClient);
                         if (top50TickersForDay != null)
                         {
