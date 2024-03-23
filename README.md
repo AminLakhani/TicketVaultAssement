@@ -30,9 +30,8 @@ Changes Made:
   - Added Date to ticker record so we know on which date this data is for as well as Sentiment Score because we might as well save all fields from API if we're going through the trouble of getting the data.
   - Writing data out to drive so that we can run a check if we've already pulled that data.
   - Added (very) basic error handling.
+  - Parameterize/config api url, dates, filepath, etc..
+  - Seperate concerns - API call and read/write to file/"db" should be handled by seperate classes, this will also make unit tests possible.
 
 ## TO DO:
-- Parameterize/config api url, dates, filepath, etc.. 
-- Seperate concerns - API call and read/write to file/"db" should be handled by seperate classes, this will also make unit tests possible.
 - Add logging + better more specific error handling.
-
