@@ -35,10 +35,21 @@ namespace StockCollector
                 Console.WriteLine($"Processing Data for {date.ToString("MM-dd-yyyy")}.");
                 if (!tickerService.IsDataProcessed(date))
                 {
-                    var tickers = await tradestieRepository.GetDataByDate(date);
-                    if (tickers.Count > 0)
+                    try
                     {
-                        tickerService.Save(tickers);
+                        var tickers = await tradestieRepository.GetDataByDate(date);
+                        if (tickers.Count > 0)
+                        {
+                            tickerService.Save(tickers);
+                        }
+                        else
+                        {
+                            Console.WriteLine($"No data found for {date.ToString("MM-dd-yyyy")}.");
+                        }
+                    }
+                    catch (Exception x)
+                    {
+                        Console.WriteLine(x.Message);
                     }
                 }
                 else
