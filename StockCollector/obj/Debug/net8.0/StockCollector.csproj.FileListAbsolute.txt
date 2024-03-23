@@ -35,3 +35,12 @@ C:\wwwroot\TicketVaultAssement\StockCollector\obj\Debug\net8.0\refint\StockColle
 C:\wwwroot\TicketVaultAssement\StockCollector\obj\Debug\net8.0\StockCollector.pdb
 C:\wwwroot\TicketVaultAssement\StockCollector\obj\Debug\net8.0\StockCollector.genruntimeconfig.cache
 C:\wwwroot\TicketVaultAssement\StockCollector\obj\Debug\net8.0\ref\StockCollector.dll
+C:\wwwroot\TicketVaultAssement\StockCollector\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\wwwroot\TicketVaultAssement\StockCollector\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\wwwroot\TicketVaultAssement\StockCollector\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\wwwroot\TicketVaultAssement\StockCollector\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\wwwroot\TicketVaultAssement\StockCollector\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\wwwroot\TicketVaultAssement\StockCollector\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\wwwroot\TicketVaultAssement\StockCollector\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\wwwroot\TicketVaultAssement\StockCollector\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\wwwroot\TicketVaultAssement\StockCollector\bin\Debug\net8.0\appsettings.json
